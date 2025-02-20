@@ -1,0 +1,13 @@
+C:\Users\bermics\source\repos\GadgetHub\GadgetHub.Domain\bin\Debug\GadgetHub.Domain.dll.config
+C:\Users\bermics\source\repos\GadgetHub\GadgetHub.Domain\bin\Debug\GadgetHub.Domain.dll
+C:\Users\bermics\source\repos\GadgetHub\GadgetHub.Domain\bin\Debug\GadgetHub.Domain.pdb
+C:\Users\bermics\source\repos\GadgetHub\GadgetHub.Domain\bin\Debug\EntityFramework.dll
+C:\Users\bermics\source\repos\GadgetHub\GadgetHub.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\bermics\source\repos\GadgetHub\GadgetHub.Domain\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\bermics\source\repos\GadgetHub\GadgetHub.Domain\bin\Debug\EntityFramework.xml
+C:\Users\bermics\source\repos\GadgetHub\GadgetHub.Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\bermics\source\repos\GadgetHub\GadgetHub.Domain\obj\Debug\GadgetHub.Domain.csproj.AssemblyReference.cache
+C:\Users\bermics\source\repos\GadgetHub\GadgetHub.Domain\obj\Debug\GadgetHub.Domain.csproj.CoreCompileInputs.cache
+C:\Users\bermics\source\repos\GadgetHub\GadgetHub.Domain\obj\Debug\GadgetHu.1C0890BC.Up2Date
+C:\Users\bermics\source\repos\GadgetHub\GadgetHub.Domain\obj\Debug\GadgetHub.Domain.dll
+C:\Users\bermics\source\repos\GadgetHub\GadgetHub.Domain\obj\Debug\GadgetHub.Domain.pdb

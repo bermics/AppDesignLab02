@@ -1,0 +1,124 @@
+﻿@model GadgetHub.WebUI.Models.GadgetListViewModel
+@using GadgetHub.WebUI.HtmlHelpers
+
+@{
+    ViewBag.Title = "Gadget Catalog";
+}
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<h2 class="text-center my-4 text-light">Gadget Catalog</h2>
+
+<div class="container">
+    @foreach (var gadget in Model.Gadgets)
+    {
+        <div class="card mb-3 shadow-sm">
+            <div class="row no-gutters">
+                <div class="col-md-4 icon-container d-flex align-items-center justify-content-center">
+                    <i class="fa-solid fa-microchip fa-5x text-primary"></i>
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body text-dark">
+                        <h5 class="card-title font-weight-bold">@gadget.Name</h5>
+                        <p class="card-text mb-1">
+                            <i class="fa-solid fa-building text-secondary"></i> <strong>Brand:</strong> @gadget.Brand
+                        </p>
+                        <p class="card-text mb-1">
+                            <i class="fa-solid fa-tag text-secondary"></i> <strong>Price:</strong>
+                            <span class="price-tag">$@gadget.Price.ToString("F2")</span>
+                        </p>
+                        <p class="card-text">
+                            <i class="fa-solid fa-info-circle text-secondary"></i> @gadget.Description
+                        </p>
+                        <span class="badge badge-pill badge-secondary">@gadget.Category</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+
+    <nav aria-label="Page navigation">
+        <ul class="pagination justify-content-center">
+            @Html.PageLinks(Model.PageProperties, page => Url.Action("List", new { page }))
+        </ul>
+    </nav>
+</div>
+
+<style>
+    
+    body {
+        background: linear-gradient(135deg, #141e30, #243b55);
+        color: #f8f9fa;
+        min-height: 100vh;
+    }
+
+    h2 {
+        font-weight: bold;
+        color: #f1f1f1;
+    }
+
+    .icon-container {
+        background: linear-gradient(135deg, #233a50, #4a667d);
+        border-right: 1px solid #e0e0e0;
+    }
+
+    .card {
+        border-radius: 10px;
+        background-color: #ffffff;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+        .card:hover {
+            transform: scale(1.03);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+        }
+
+    .card-body {
+        color: #2c3e50;
+    }
+
+    .price-tag {
+        background-color: #28a745;
+        color: white;
+        padding: 4px 10px;
+        font-weight: bold;
+        border-radius: 5px;
+    }
+
+    .badge-pill {
+        font-size: 0.8rem;
+        padding: 6px 12px;
+        background-color: #6c757d;
+    }
+
+    .fa-microchip {
+        font-size: 4rem;
+        color: #007bff;
+    }
+
+    .fa-building, .fa-tag, .fa-info-circle {
+        color: #6c757d;
+    }
+
+    .pagination a {
+        margin: 4px;
+        padding: 8px 14px;
+        border-radius: 20px;
+        border: 1px solid #4e9af1;
+        color: #4e9af1;
+        text-decoration: none;
+        transition: all 0.2s ease;
+    }
+
+    .pagination .selected {
+        background-color: #4e9af1;
+        color: white;
+        border-color: #4e9af1;
+    }
+
+    .pagination a:hover {
+        background-color: #2f76c4;
+        color: white;
+    }
+</style>
