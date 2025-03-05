@@ -1,0 +1,20 @@
+﻿@model IEnumerable<string>
+
+<!-- Category Title -->
+<h4 class="text-center font-weight-bold" style="color: #212529; margin-bottom: 10px;">Categories</h4>
+
+<!-- Category List -->
+<div class="list-group">
+    <a href="@Url.Action("List", "Gadget")"
+       class="list-group-item list-group-item-action @(ViewBag.SelectedCategory == null ? "active" : "")">
+        All Products
+    </a>
+
+    @foreach (var category in Model)
+    {
+        <a href="@Url.Action("List", "Gadget", new { category = category })"
+           class="list-group-item list-group-item-action @(ViewBag.SelectedCategory == category ? "active" : "")">
+            @category
+        </a>
+    }
+</div>

@@ -10,5 +10,6 @@ namespace GadgetHub.WebUI.Models
     {
         public IEnumerable<Gadget> Gadgets { get; set; }
         public PageProperties PageProperties{ get; set; }
+        public string CurrentCategory { get; set; }
     }
 }

@@ -1,3 +1,4 @@
+C:\Users\bermics\source\repos\GadgetHub\GadgetHub.WebUI\bin\Images\GreatSuccess.jpg
 C:\Users\bermics\source\repos\GadgetHub\GadgetHub.WebUI\bin\GadgetHub.WebUI.dll.config
 C:\Users\bermics\source\repos\GadgetHub\GadgetHub.WebUI\bin\GadgetHub.WebUI.dll
 C:\Users\bermics\source\repos\GadgetHub\GadgetHub.WebUI\bin\GadgetHub.WebUI.pdb
@@ -99,4 +100,3 @@ C:\Users\bermics\source\repos\GadgetHub\GadgetHub.WebUI\obj\Debug\GadgetHub.WebU
 C:\Users\bermics\source\repos\GadgetHub\GadgetHub.WebUI\obj\Debug\GadgetHu.799E193E.Up2Date
 C:\Users\bermics\source\repos\GadgetHub\GadgetHub.WebUI\obj\Debug\GadgetHub.WebUI.dll
 C:\Users\bermics\source\repos\GadgetHub\GadgetHub.WebUI\obj\Debug\GadgetHub.WebUI.pdb
-C:\Users\bermics\source\repos\GadgetHub\GadgetHub.WebUI\bin\Images\GreatSuccess.jpg

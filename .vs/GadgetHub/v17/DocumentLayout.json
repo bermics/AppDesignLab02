@@ -3,31 +3,35 @@
   "WorkspaceRootPath": "C:\\Users\\bermics\\source\\repos\\GadgetHub\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{35F00AE5-AB72-4681-9CD6-EA35B7B8FB13}|GadgetHub.WebUI\\GadgetHub.WebUI.csproj|c:\\users\\bermics\\source\\repos\\gadgethub\\gadgethub.webui\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{35F00AE5-AB72-4681-9CD6-EA35B7B8FB13}|GadgetHub.WebUI\\GadgetHub.WebUI.csproj|solutionrelative:gadgethub.webui\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{35F00AE5-AB72-4681-9CD6-EA35B7B8FB13}|GadgetHub.WebUI\\GadgetHub.WebUI.csproj|c:\\users\\bermics\\source\\repos\\gadgethub\\gadgethub.webui\\views\\gadget\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{35F00AE5-AB72-4681-9CD6-EA35B7B8FB13}|GadgetHub.WebUI\\GadgetHub.WebUI.csproj|solutionrelative:gadgethub.webui\\views\\gadget\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35F00AE5-AB72-4681-9CD6-EA35B7B8FB13}|GadgetHub.WebUI\\GadgetHub.WebUI.csproj|c:\\users\\bermics\\source\\repos\\gadgethub\\gadgethub.webui\\views\\shared\\menu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{35F00AE5-AB72-4681-9CD6-EA35B7B8FB13}|GadgetHub.WebUI\\GadgetHub.WebUI.csproj|solutionrelative:gadgethub.webui\\views\\shared\\menu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35F00AE5-AB72-4681-9CD6-EA35B7B8FB13}|GadgetHub.WebUI\\GadgetHub.WebUI.csproj|c:\\users\\bermics\\source\\repos\\gadgethub\\gadgethub.webui\\controllers\\navcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35F00AE5-AB72-4681-9CD6-EA35B7B8FB13}|GadgetHub.WebUI\\GadgetHub.WebUI.csproj|solutionrelative:gadgethub.webui\\controllers\\navcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{86117C43-4D1C-49F3-AB3D-E9ABCF49B295}|GadgetHub.Domain\\GadgetHub.Domain.csproj|C:\\Users\\bermics\\source\\repos\\GadgetHub\\gadgethub.domain\\entities\\gadget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{86117C43-4D1C-49F3-AB3D-E9ABCF49B295}|GadgetHub.Domain\\GadgetHub.Domain.csproj|solutionrelative:gadgethub.domain\\entities\\gadget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35F00AE5-AB72-4681-9CD6-EA35B7B8FB13}|GadgetHub.WebUI\\GadgetHub.WebUI.csproj|C:\\Users\\bermics\\source\\repos\\GadgetHub\\gadgethub.webui\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35F00AE5-AB72-4681-9CD6-EA35B7B8FB13}|GadgetHub.WebUI\\GadgetHub.WebUI.csproj|solutionrelative:gadgethub.webui\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{35F00AE5-AB72-4681-9CD6-EA35B7B8FB13}|GadgetHub.WebUI\\GadgetHub.WebUI.csproj|C:\\Users\\bermics\\source\\repos\\GadgetHub\\gadgethub.webui\\models\\gadgetlistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{35F00AE5-AB72-4681-9CD6-EA35B7B8FB13}|GadgetHub.WebUI\\GadgetHub.WebUI.csproj|solutionrelative:gadgethub.webui\\models\\gadgetlistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35F00AE5-AB72-4681-9CD6-EA35B7B8FB13}|GadgetHub.WebUI\\GadgetHub.WebUI.csproj|C:\\Users\\bermics\\source\\repos\\GadgetHub\\gadgethub.webui\\htmlhelpers\\pagehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35F00AE5-AB72-4681-9CD6-EA35B7B8FB13}|GadgetHub.WebUI\\GadgetHub.WebUI.csproj|solutionrelative:gadgethub.webui\\htmlhelpers\\pagehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{35F00AE5-AB72-4681-9CD6-EA35B7B8FB13}|GadgetHub.WebUI\\GadgetHub.WebUI.csproj|c:\\users\\bermics\\source\\repos\\gadgethub\\gadgethub.webui\\views\\shared\\_productsummary.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{35F00AE5-AB72-4681-9CD6-EA35B7B8FB13}|GadgetHub.WebUI\\GadgetHub.WebUI.csproj|solutionrelative:gadgethub.webui\\views\\shared\\_productsummary.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35F00AE5-AB72-4681-9CD6-EA35B7B8FB13}|GadgetHub.WebUI\\GadgetHub.WebUI.csproj|C:\\Users\\bermics\\source\\repos\\GadgetHub\\gadgethub.webui\\models\\pageproperties.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35F00AE5-AB72-4681-9CD6-EA35B7B8FB13}|GadgetHub.WebUI\\GadgetHub.WebUI.csproj|solutionrelative:gadgethub.webui\\models\\pageproperties.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35F00AE5-AB72-4681-9CD6-EA35B7B8FB13}|GadgetHub.WebUI\\GadgetHub.WebUI.csproj|C:\\Users\\bermics\\source\\repos\\GadgetHub\\gadgethub.webui\\controllers\\gadgetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{35F00AE5-AB72-4681-9CD6-EA35B7B8FB13}|GadgetHub.WebUI\\GadgetHub.WebUI.csproj|c:\\users\\bermics\\source\\repos\\gadgethub\\gadgethub.webui\\controllers\\gadgetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{35F00AE5-AB72-4681-9CD6-EA35B7B8FB13}|GadgetHub.WebUI\\GadgetHub.WebUI.csproj|solutionrelative:gadgethub.webui\\controllers\\gadgetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -42,87 +46,106 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "NavController.cs",
+              "DocumentMoniker": "C:\\Users\\bermics\\source\\repos\\GadgetHub\\GadgetHub.WebUI\\Controllers\\NavController.cs",
+              "RelativeDocumentMoniker": "GadgetHub.WebUI\\Controllers\\NavController.cs",
+              "ToolTip": "C:\\Users\\bermics\\source\\repos\\GadgetHub\\GadgetHub.WebUI\\Controllers\\NavController.cs",
+              "RelativeToolTip": "GadgetHub.WebUI\\Controllers\\NavController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T03:42:01.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Gadget.cs",
               "DocumentMoniker": "C:\\Users\\bermics\\source\\repos\\GadgetHub\\GadgetHub.Domain\\Entities\\Gadget.cs",
               "RelativeDocumentMoniker": "GadgetHub.Domain\\Entities\\Gadget.cs",
               "ToolTip": "C:\\Users\\bermics\\source\\repos\\GadgetHub\\GadgetHub.Domain\\Entities\\Gadget.cs",
               "RelativeToolTip": "GadgetHub.Domain\\Entities\\Gadget.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowBIAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T00:54:53.514Z"
+              "WhenOpened": "2025-02-20T00:54:53.514Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RouteConfig.cs",
-              "DocumentMoniker": "C:\\Users\\bermics\\source\\repos\\GadgetHub\\GadgetHub.WebUI\\App_Start\\RouteConfig.cs",
-              "RelativeDocumentMoniker": "GadgetHub.WebUI\\App_Start\\RouteConfig.cs",
-              "ToolTip": "C:\\Users\\bermics\\source\\repos\\GadgetHub\\GadgetHub.WebUI\\App_Start\\RouteConfig.cs",
-              "RelativeToolTip": "GadgetHub.WebUI\\App_Start\\RouteConfig.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAQwCUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T00:08:50.034Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "GadgetListViewModel.cs",
               "DocumentMoniker": "C:\\Users\\bermics\\source\\repos\\GadgetHub\\GadgetHub.WebUI\\Models\\GadgetListViewModel.cs",
               "RelativeDocumentMoniker": "GadgetHub.WebUI\\Models\\GadgetListViewModel.cs",
               "ToolTip": "C:\\Users\\bermics\\source\\repos\\GadgetHub\\GadgetHub.WebUI\\Models\\GadgetListViewModel.cs",
               "RelativeToolTip": "GadgetHub.WebUI\\Models\\GadgetListViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T00:05:48.177Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PageHelper.cs",
-              "DocumentMoniker": "C:\\Users\\bermics\\source\\repos\\GadgetHub\\GadgetHub.WebUI\\HtmlHelpers\\PageHelper.cs",
-              "RelativeDocumentMoniker": "GadgetHub.WebUI\\HtmlHelpers\\PageHelper.cs",
-              "ToolTip": "C:\\Users\\bermics\\source\\repos\\GadgetHub\\GadgetHub.WebUI\\HtmlHelpers\\PageHelper.cs",
-              "RelativeToolTip": "GadgetHub.WebUI\\HtmlHelpers\\PageHelper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T23:56:53.644Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PageProperties.cs",
-              "DocumentMoniker": "C:\\Users\\bermics\\source\\repos\\GadgetHub\\GadgetHub.WebUI\\Models\\PageProperties.cs",
-              "RelativeDocumentMoniker": "GadgetHub.WebUI\\Models\\PageProperties.cs",
-              "ToolTip": "C:\\Users\\bermics\\source\\repos\\GadgetHub\\GadgetHub.WebUI\\Models\\PageProperties.cs",
-              "RelativeToolTip": "GadgetHub.WebUI\\Models\\PageProperties.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T23:54:14.159Z"
+              "WhenOpened": "2025-02-20T00:05:48.177Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "GadgetController.cs",
-              "DocumentMoniker": "C:\\Users\\bermics\\source\\repos\\GadgetHub\\GadgetHub.WebUI\\Controllers\\GadgetController.cs",
-              "RelativeDocumentMoniker": "GadgetHub.WebUI\\Controllers\\GadgetController.cs",
-              "ToolTip": "C:\\Users\\bermics\\source\\repos\\GadgetHub\\GadgetHub.WebUI\\Controllers\\GadgetController.cs",
-              "RelativeToolTip": "GadgetHub.WebUI\\Controllers\\GadgetController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T23:50:41.043Z"
+              "Title": "_ProductSummary.cshtml",
+              "DocumentMoniker": "C:\\Users\\bermics\\source\\repos\\GadgetHub\\GadgetHub.WebUI\\Views\\Shared\\_ProductSummary.cshtml",
+              "RelativeDocumentMoniker": "GadgetHub.WebUI\\Views\\Shared\\_ProductSummary.cshtml",
+              "ToolTip": "C:\\Users\\bermics\\source\\repos\\GadgetHub\\GadgetHub.WebUI\\Views\\Shared\\_ProductSummary.cshtml",
+              "RelativeToolTip": "GadgetHub.WebUI\\Views\\Shared\\_ProductSummary.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-05T03:24:33.901Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "List.cshtml",
               "DocumentMoniker": "C:\\Users\\bermics\\source\\repos\\GadgetHub\\GadgetHub.WebUI\\Views\\Gadget\\List.cshtml",
               "RelativeDocumentMoniker": "GadgetHub.WebUI\\Views\\Gadget\\List.cshtml",
               "ToolTip": "C:\\Users\\bermics\\source\\repos\\GadgetHub\\GadgetHub.WebUI\\Views\\Gadget\\List.cshtml",
               "RelativeToolTip": "GadgetHub.WebUI\\Views\\Gadget\\List.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACQAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAACYAAAAAAAAAAADwv2kAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-19T23:50:13.988Z",
+              "WhenOpened": "2025-03-05T03:21:32.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Menu.cshtml",
+              "DocumentMoniker": "C:\\Users\\bermics\\source\\repos\\GadgetHub\\GadgetHub.WebUI\\Views\\Shared\\Menu.cshtml",
+              "RelativeDocumentMoniker": "GadgetHub.WebUI\\Views\\Shared\\Menu.cshtml",
+              "ToolTip": "C:\\Users\\bermics\\source\\repos\\GadgetHub\\GadgetHub.WebUI\\Views\\Shared\\Menu.cshtml",
+              "RelativeToolTip": "GadgetHub.WebUI\\Views\\Shared\\Menu.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-05T04:14:43.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\bermics\\source\\repos\\GadgetHub\\GadgetHub.WebUI\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "GadgetHub.WebUI\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\bermics\\source\\repos\\GadgetHub\\GadgetHub.WebUI\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "GadgetHub.WebUI\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABwAAAAAAAAAAADwvyAAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-05T04:10:27.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GadgetController.cs",
+              "DocumentMoniker": "C:\\Users\\bermics\\source\\repos\\GadgetHub\\GadgetHub.WebUI\\Controllers\\GadgetController.cs",
+              "RelativeDocumentMoniker": "GadgetHub.WebUI\\Controllers\\GadgetController.cs",
+              "ToolTip": "C:\\Users\\bermics\\source\\repos\\GadgetHub\\GadgetHub.WebUI\\Controllers\\GadgetController.cs",
+              "RelativeToolTip": "GadgetHub.WebUI\\Controllers\\GadgetController.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAmwCwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T04:06:31.914Z",
               "EditorCaption": ""
             }
           ]

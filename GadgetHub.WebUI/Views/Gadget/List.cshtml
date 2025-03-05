@@ -1,5 +1,6 @@
 ﻿@model GadgetHub.WebUI.Models.GadgetListViewModel
 @using GadgetHub.WebUI.HtmlHelpers
+@using GadgetHub.Domain.Entities
 
 @{
     ViewBag.Title = "Gadget Catalog";
@@ -10,43 +11,27 @@
 
 <h2 class="text-center my-4 text-light">Gadget Catalog</h2>
 
-<div class="container">
-    @foreach (var gadget in Model.Gadgets)
-    {
-        <div class="card mb-3 shadow-sm">
-            <div class="row no-gutters">
-                <div class="col-md-4 icon-container d-flex align-items-center justify-content-center">
-                    <i class="fa-solid fa-microchip fa-5x text-primary"></i>
-                </div>
-                <div class="col-md-8">
-                    <div class="card-body text-dark">
-                        <h5 class="card-title font-weight-bold">@gadget.Name</h5>
-                        <p class="card-text mb-1">
-                            <i class="fa-solid fa-building text-secondary"></i> <strong>Brand:</strong> @gadget.Brand
-                        </p>
-                        <p class="card-text mb-1">
-                            <i class="fa-solid fa-tag text-secondary"></i> <strong>Price:</strong>
-                            <span class="price-tag">$@gadget.Price.ToString("F2")</span>
-                        </p>
-                        <p class="card-text">
-                            <i class="fa-solid fa-info-circle text-secondary"></i> @gadget.Description
-                        </p>
-                        <span class="badge badge-pill badge-secondary">@gadget.Category</span>
-                    </div>
-                </div>
+<div class="container mt-4">
+    <div class="row">
+        @foreach (var gadget in Model.Gadgets)
+        {
+            <div class="col-12 mb-4">
+                @Html.Partial("_ProductSummary", gadget)
             </div>
-        </div>
-    }
+        }
+    </div>
 
     <nav aria-label="Page navigation">
         <ul class="pagination justify-content-center">
-            @Html.PageLinks(Model.PageProperties, page => Url.Action("List", new { page }))
+            @Html.PageLinks(Model.PageProperties, page =>
+                     Url.Action("List", new { category = Model.CurrentCategory, page }))
         </ul>
     </nav>
 </div>
 
+
+
 <style>
-    
     body {
         background: linear-gradient(135deg, #141e30, #243b55);
         color: #f8f9fa;
