@@ -1,0 +1,100 @@
+﻿@model GadgetHub.Models.Cart
+
+@{
+    ViewBag.Title = "Shopping Cart";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 class="text-center my-4 text-light">Shopping Cart</h2>
+
+<div class="container">
+    @if (TempData["Message"] != null)
+    {
+        <div class="alert alert-success alert-dismissible fade show text-center" role="alert">
+            @TempData["Message"]
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+    }
+
+    @if (!Model.Items.Any())
+    {
+        <div class="alert alert-warning text-center">
+            Your cart is empty.
+        </div>
+
+        <div class="text-center mt-4">
+            <a href="@Url.Action("List", "Gadget")" class="btn btn-outline-primary mx-2">
+                <i class="fa fa-shopping-cart"></i> Continue Shopping
+            </a>
+            <a href="#" class="btn btn-success mx-2 disabled">
+                <i class="fa fa-credit-card"></i> Proceed to Checkout
+            </a>
+        </div>
+    }
+    else
+    {
+        <div class="row">
+            @foreach (var item in Model.Items)
+            {
+                <div class="col-md-6">
+                    <div class="card mb-3 shadow-sm">
+                        <div class="row no-gutters">
+                            <div class="col-md-4 d-flex align-items-center justify-content-center icon-container">
+                                <i class="fa-solid fa-shopping-cart fa-5x text-primary"></i>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body text-dark">
+                                    <h5 class="card-title font-weight-bold">@item.Name</h5>
+                                    <p class="card-text mb-1">
+                                        <i class="fa-solid fa-tag text-secondary"></i> <strong>Price:</strong>
+                                        <span class="price-tag">$@(item.Price.ToString("F2"))</span>
+                                    </p>
+                                    <p class="card-text mb-1">
+                                        <i class="fa-solid fa-box text-secondary"></i> <strong>Quantity:</strong> @item.Quantity
+                                    </p>
+                                    <p class="card-text">
+                                        <i class="fa-solid fa-dollar-sign text-secondary"></i> <strong>Total:</strong>
+                                        <span class="price-tag">$@((item.Price * item.Quantity).ToString("F2"))</span>
+                                    </p>
+
+                                    <!-- Remove from cart button -->
+                                    <form action="@Url.Action("RemoveFromCart", "Cart")" method="post">
+                                        <input type="hidden" name="productId" value="@item.ProductId" />
+                                        <button type="submit" class="btn btn-danger btn-sm mt-2">
+                                            <i class="fa fa-trash"></i> Remove from Cart
+                                        </button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+
+        <div class="text-center mt-4">
+            <h4 class="text-light">Total Cost: <strong class="text-success">$@Model.TotalCost.ToString("F2")</strong></h4>
+            <div class="d-flex justify-content-center mt-3">
+                <a href="@Url.Action("List", "Gadget")" class="btn btn-outline-primary mx-2">
+                    <i class="fa fa-shopping-cart"></i> Continue Shopping
+                </a>
+                <a href="#" class="btn btn-success mx-2">
+                    <i class="fa fa-credit-card"></i> Proceed to Checkout
+                </a>
+            </div>
+        </div>
+    }
+</div>
+<style>
+    h2.text-center,
+    .text-light {
+        color: #2c3e50 !important;
+    }
+
+    h4.text-light {
+        color: #2c3e50 !important;
+    }
+</style>
+
